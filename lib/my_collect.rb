@@ -12,5 +12,6 @@ end
 
 #my_collect(['ruby', 'javascript', 'python', 'objective-c']) { |language| language.upcase}
 #my_collect(['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']) { |student| st#udent.split("").first}
-
+my_collect([languages]) { |language| language.upcase}
+my_collect([students]) { |student| st#udent.split("").first}
 
